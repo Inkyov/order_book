@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import reportWebVitals from './reportWebVitals';
+const theme = createTheme({
+  palette: {
+    type: 'dark',
+  },
+});
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ThemeProvider theme={theme}>
     <App />
-  </React.StrictMode>,
+  </ThemeProvider>,
   document.getElementById('root')
 );
 

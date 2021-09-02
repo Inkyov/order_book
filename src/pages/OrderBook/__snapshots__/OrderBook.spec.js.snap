@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderBook should render 1`] = `
+<div>
+  <div
+    class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-1 WithStyles(ForwardRef(Grid))-root-2 MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container"
+      data-testid="TABLE_HEADERS"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+      >
+        Order Book
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+      >
+        Spread
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+      >
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline"
+        >
+          <div
+            aria-haspopup="listbox"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+            role="button"
+            tabindex="0"
+          >
+            0.5
+          </div>
+          <input
+            aria-hidden="true"
+            class="MuiSelect-nativeInput"
+            tabindex="-1"
+            value="0.5"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        currentstream="PI_XBTUSD"
+        data-testid="BIDS"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-3 WithStyles(ForwardRef(Grid))-root-4 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="TOTAL"
+          >
+            TOTAL
+          </div>
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-3 WithStyles(ForwardRef(Grid))-root-5 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="SIZE"
+          >
+            SIZE
+          </div>
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-3 WithStyles(ForwardRef(Grid))-root-6 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="PRICE"
+          >
+            PRICE
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        currentstream="PI_XBTUSD"
+        data-testid="ASKS"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-7 WithStyles(ForwardRef(Grid))-root-8 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="PRICE"
+          >
+            PRICE
+          </div>
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-7 WithStyles(ForwardRef(Grid))-root-9 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="SIZE"
+          >
+            SIZE
+          </div>
+          <div
+            class="MuiGrid-root WithStyles(ForwardRef(Grid))-root-7 WithStyles(ForwardRef(Grid))-root-10 MuiGrid-item MuiGrid-grid-xs-6"
+            data-testid="TOTAL"
+          >
+            TOTAL
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-justify-content-xs-center"
+      data-testid="TRADING_PAIRS_SELECT"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text WithStyles(ForwardRef(Button))-root-11 MuiButton-textSizeSmall MuiButton-sizeSmall"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Toggle Feed
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text WithStyles(ForwardRef(Button))-root-12 WithStyles(ForwardRef(Button))-root-13 MuiButton-textSizeSmall MuiButton-sizeSmall"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Kill Feed
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
